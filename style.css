@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f2f2;
+}
+
+h2, h5, .display-3 {
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: #FF6F61;
+    padding: 15px 0;
+}
+
+.navbar-brand span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF6F61 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(45deg, #FF6F61, #972727);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: white;
+    color: #FF6F61;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #FF6F61;
+    color: white;
+}
+
+/* Services Section */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Contact Section */
+#contact form input, #contact form textarea {
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#contact .btn {
+    background-color: #FF6F61;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 24px;
+    transition: background-color 0.3s ease;
+}
+
+#contact .btn:hover {
+    background-color: #e75a4d;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
+

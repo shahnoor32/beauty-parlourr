@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beauty Parlour</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm">
+        <a class="navbar-brand" href="#">Beauty <span>Parlour</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-gradient text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-3">Discover Your True Beauty</h1>
+            <p class="lead">Experience luxury treatments with a personal touch. We bring out the best in you.</p>
+            <a href="#services" class="btn btn-light btn-lg mt-4">Explore Services</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Premium Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="assest/hairstyle 1.png" class="card-img-top" alt="Hair Styling">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Hair Styling</h5>
+                            <p class="card-text">Professional haircuts, styling, and coloring to make you shine.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="assest/skincare2.jfif" class="card-img-top" alt="Skin Care">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Skin Care</h5>
+                            <p class="card-text">Luxurious facials, waxing, and skin treatments for a glowing complexion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0 rounded">
+                        <img src="assest/makeup 3.jfif" class="card-img-top" alt="Makeup Services">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Makeup Services</h5>
+                            <p class="card-text">Expert makeup artists for every occasion—from weddings to photoshoots.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">At our beauty parlour, we aim to provide personalized services to help you look and feel your best. Our skilled professionals are here to pamper you with top-of-the-line products and services in a relaxing environment. Whether it’s a haircut, facial, or makeup session, we promise a transformative experience.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Visit Us:</h4>
+                    <p>123 Beauty Street, Beautiful City, BC 12345</p>
+                    <h4>Phone:</h4>
+                    <p>(123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Beauty Parlour. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS, jQuery, and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+</body>
+
+</html>
+
